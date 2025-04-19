@@ -10,6 +10,7 @@
     <p>Esta es una práctica de GitHub.</p>
     <form id="loginForm">
         <label for="username">Nombre de usuario:</label>
+
         <input type="text" id="nombreUsuario" name="nombreUsuario" placeholder="Ingresá tu nombre de usuario">
         <br>
     
@@ -23,7 +24,7 @@
         document.getElementById('loginForm').addEventListener('submit', function(event) {
             event.preventDefault();  // Prevenir el comportamiento por defecto del formulario
     
-            const username = document.getElementById('username').value;
+            const username = document.getElementById('nombreUsuario').value;
             const password = document.getElementById('password').value;
     
             const data = {
