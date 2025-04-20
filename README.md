@@ -1,5 +1,5 @@
 # Práctica Formativa
-Desarrolladores: Ana Sol Nuñez y M. Eugenia Descalzo.
+Desarrolladores: M. Eugenia Descalzo.
 
 ## Llamada AJAX para el formulario de login
 
